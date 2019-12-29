@@ -7,7 +7,6 @@ def key_for_min_value(name_hash)
       if this_value < value
         value = this_value
         desired_key = name
-        puts desired_key
       end
   end
   desired_key
