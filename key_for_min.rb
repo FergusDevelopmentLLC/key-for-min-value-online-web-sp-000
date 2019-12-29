@@ -12,5 +12,5 @@ def key_for_min_value(name_hash)
   desired_key
 end
 
-veggies = {"apple" => -450, "banana" => -74.5, "carrot" => -84.9}
-puts key_for_min_value(veggies)
+# veggies = {"apple" => -450, "banana" => -74.5, "carrot" => -84.9}
+# puts key_for_min_value(veggies)
