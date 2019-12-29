@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
   desired_key = key
   name_hash.collect do |name, this_value|
       if this_value < value
+        value = this_value
         desired_key = name
         puts desired_key
       end
