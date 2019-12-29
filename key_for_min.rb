@@ -4,9 +4,9 @@ def key_for_min_value(name_hash)
   key, value = name_hash.first
   desired_key = key
   name_hash.collect do |name, this_value|
-      p name
-      p this_value
       if this_value < value
+        p name
+        p this_value
         desired_key = name
       end
   end
