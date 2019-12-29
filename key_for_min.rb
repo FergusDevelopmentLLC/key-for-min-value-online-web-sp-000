@@ -1,7 +1,7 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 def key_for_min_value(name_hash)
-  key, value = hash.first
+  key, value = name_hash.first
   desired_key = key
   name_hash.collect do |name, this_value|
       if this_value < value
